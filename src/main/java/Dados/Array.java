@@ -12,7 +12,22 @@ public class Array {
         ninja[2] = "Sakura";
         ninja[3] = "Hinata";
         ninja[4] = "Kakashi";
-        System.out.println(ninja[5]);
+
+        // Redeclarar Array
+        ninja = new String[7];
+        ninja[0] = "Hashirama Senju";
+        ninja[1] = "Tobirama Senju";
+        ninja[2] = "Hiruzen Sarutobi";
+        ninja[3] = "Minato Namikaze";
+        ninja[4] = "Tsunade Senju";
+        ninja[5] = "Kakashi Hatake";
+        ninja[6] = "Naruto Uzumaki";
+
+        // For para fazer um LOOP no array
+        for (int i = 0; i < 7; i++) {
+            System.out.println(ninja[i]);
+        }
+
 
         // Array idade -> inicializa como 0
         int[] idade = new int[2];
@@ -30,8 +45,5 @@ public class Array {
         flutuante[0] = 1.5;
         System.out.println(flutuante[1]);
 
-
-        String nomeDoNinja1 = "Gustavo do deserto";
-        String nomeDoNinja2 = "Roberto lee";
     }
 }
