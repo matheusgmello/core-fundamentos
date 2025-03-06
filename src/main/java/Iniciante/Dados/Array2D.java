@@ -1,4 +1,4 @@
-package Dados;
+package Iniciante.Dados;
 
 public class Array2D {
     public static void main(String[] args) {

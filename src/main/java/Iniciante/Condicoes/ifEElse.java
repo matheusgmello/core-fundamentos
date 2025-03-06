@@ -1,4 +1,4 @@
-package Condicoes;
+package Iniciante.Condicoes;
 
 public class ifEElse {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package TipoDeDados;
+package Iniciante.TipoDeDados;
 
 public class DadosNaoPrimitivos {
     public static void main(String[] args) {
