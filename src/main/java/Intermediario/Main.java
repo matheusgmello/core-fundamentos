@@ -3,22 +3,35 @@ package Intermediario;
 public class Main {
     public static void main(String[] args) {
 
-        Ninja Sasuke = new Ninja();
+        // Objeto Uchiha
+        Uchiha Sasuke = new Uchiha();
         Sasuke.nome = "Sasuke Uchiha";
-        Sasuke.idade = 16;
-        Sasuke.aldeia = "Konoha";
+        Sasuke.aldeia = "Aldeia da Folha - Konoha";
+        Sasuke.idade = 17;
 
         // Aplicando um método ao o objeto
         Sasuke.ShariganAtivado();
-        String chamandoMetodo = Sasuke.EuSouUmninja();
-        System.out.println(chamandoMetodo);
 
-        int quatoTempoFalta = Sasuke.anosParaSeTornarHokage(25);
-        System.out.println("Você tem: " + Sasuke.idade + " Faltam no mínimo: " + quatoTempoFalta + " anos para se tornar Hokage");
+        // Objeto Uzumaki
+        Uzumaki Naruto = new Uzumaki();
+        Naruto.nome = "Naruto Uzumaki";
+        Naruto.aldeia = "Aldeia da Folha - Konoha";
+        Naruto.idade = 17;
+        Naruto.ModoSabioAtivado();
 
-        System.out.println("Nome: " + Sasuke.nome);
-        System.out.println("Idade: " + Sasuke.idade);
-        System.out.println("Aldeia: " + Sasuke.aldeia);
+        // Objeto Haruno
+        Haruno Sakura = new Haruno();
+        Sakura.nome = "Sakura Haruno";
+        Sakura.aldeia = "Aldeia da Folha - Konoha";
+        Sakura.idade = 17;
+        Sakura.AtivarCura();
+
+        // Objeto Hyuga
+        Hyuga Hinata = new Hyuga();
+        Hinata.nome = "Hinata Hyuga";
+        Hinata.aldeia = "Aldeia da Folha - Konoha";
+        Hinata.idade = 17;
+        Hinata.ByakuganAtivado();
 
     }
 }
