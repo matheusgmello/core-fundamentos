@@ -3,13 +3,15 @@ package Intermediario;
 public class Main {
     public static void main(String[] args) {
 
-        Uzumaki naruto = new Uzumaki();
-        naruto.nome = "Naruto Uzumaki";
-        naruto.habilidadeEspecial();
+        Uzumaki Naruto = new Uzumaki();
+        Naruto.nome = "Naruto Uzumaki";
 
+        Uchiha Sasuke = new Uchiha();
+        Sasuke.nome = "Sasuke Uchiha";
 
-        Uchiha sasuke = new Uchiha();
-        sasuke.nome = "Sasuke Uchiha";
-        sasuke.habilidadeEspecial();
+        Sasuke.nomeDoNinja();
+        Naruto.tacarKunai();
+
+        Naruto.tacarUmaShuriken();
     }
 }

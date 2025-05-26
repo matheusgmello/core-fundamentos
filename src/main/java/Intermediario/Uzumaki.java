@@ -1,13 +1,14 @@
 package Intermediario;
 
-public class Uzumaki extends Ninja {
+public class Uzumaki extends Ninja implements NinjaInterface {
 
-    public void ModoSabioAtivado(){
-        System.out.println("Meu nome é " + nome + ", E eu ativei o modo sábio🥷🤓☝️");
+    @Override
+    public void nomeDoNinja() {
+        System.out.println("Meu nome é " + nome);
     }
 
     @Override
-    public void habilidadeEspecial(){
-        System.out.println("Meu nome é " + nome + ", e esse é o meu ataque Uzumaki!, um ataque de vento💨💨💨");
+    public void tacarUmaShuriken() {
+        System.out.println(nome + " tacou uma shuriken!");
     }
 }
