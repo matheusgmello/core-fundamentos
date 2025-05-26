@@ -1,10 +1,13 @@
 package Intermediario.construtores;
 
-public class Hogakes {
+public abstract class Hogakes {
 
     String nome;
     int idade;
     Boolean vivoOuNao;
+
+
+    public abstract void sabedoriaHokage();
 
     public Hogakes(){
         // Construtor vazio, sem argumentos
